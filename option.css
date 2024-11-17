@@ -1,0 +1,63 @@
+body {
+    background: gray;
+}
+.option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#firstCourse3, #secondCourse3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background: darkblue;
+    color: gray;
+    margin: 20px auto;
+    width: 50%; 
+    max-width: 1400px;
+}
+#firstCourse2, #secondCourse2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    background: darkblue;
+    color: gray;
+    margin: 20px auto;
+    margin-top: 20px;
+    width: 100%; 
+    max-width: 1400px;
+}
+#firstCourse3{
+    background-image: url(loop/spaceOne.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+#secondCourse3{
+    background-image: url(loop/Sea_Beach_Background.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+#firstCourse2 {
+    background-image: url(loop/spaceOne.jpg);
+    background-size: cover;
+    height: 250vh;
+}
+#secondCourse2 {
+    background-image: url(loop/Sea_Beach_Background.jpg);
+    background-size: cover;
+    height: 250vh;
+}
+#quiz button, #quiz2 button {
+    margin: 10px 0;
+    width: 100px;
+    background: gray;
+    height: 60px;
+}
+a {
+    color: gray;
+    text-decoration: none;
+}

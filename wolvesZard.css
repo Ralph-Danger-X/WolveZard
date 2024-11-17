@@ -1,0 +1,16 @@
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.appForWolvesZard{
+    background: blue;
+    width: 100px;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}

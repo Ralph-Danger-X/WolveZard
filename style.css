@@ -1,0 +1,43 @@
+body{
+    background: rgba(88, 88, 90, 0.945);
+    color: blue;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.start{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.h{
+    font-size: 50px;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+.general{
+    background-image: url(loop/download\ \(6\).jfif);
+    width: 99vh;
+    height: 99vh;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button{
+    background: rgb(134, 176, 253);
+    color: blue;
+}
+@media(max-width:600px){
+    .general{
+        background-image: url(loop/download\ \(6\).jfif);
+        width: 600px;
+        height: 100%;
+        background-size: contain;
+        position: absolute;
+    }
+}

@@ -1,0 +1,93 @@
+.firsti{
+    margin-top: 25px;
+}
+.innerpart{
+    background: darkblue;
+    border-radius: 20px;
+}
+.icon{
+    justify-content: space-around;
+    display: flex;
+}
+.wolf{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+body{
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+    color: blue;
+    background: darkblue;
+}
+.img{
+    width: 120px;
+    height: 150px;
+}
+.questions{
+    border: 5px solid black;
+    border-radius: 25px;
+    width: 300px;
+}
+.questions img{
+    margin-top: 30px;
+}
+.inner{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+@media(max-width:600px){
+    .img{
+        width: 85px;
+        height: 90px;
+    }
+    .questions img{
+        width: 85px;
+        height: 90px;
+    }
+    .questions{
+        border: 2px solid black;
+        border-radius: 25px;
+        width: 300px;
+    }
+}
+.startoforderdiv{
+    margin-top: 50px;
+}
+.moneysign{
+    color: green;
+}
+.lastoforderdiv{
+    margin-top: 50px;
+}
+.solo{
+    color: blue;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.ender{
+    justify-content: space-around;
+    display: flex;
+    gap: 20px;
+}
+.challange{
+    color: white;
+    padding: 10px;
+    background: blue;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.cover{
+    background: white;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+button{
+    outline: none;
+    text-decoration: none;
+}
