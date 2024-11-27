@@ -8,6 +8,9 @@
     background: rgb(2, 2, 71);
 }
 body{
+    text-decoration: none;
+}
+body{
     background: rgba(5, 5, 133, 0.945);
     align-items: center;
     text-align: center;
