@@ -5,13 +5,14 @@
     margin-top: 200px;
     padding-block: 10px;
     border-radius: 20px;
-    background: rgb(2, 2, 71);
+    box-shadow: 0 0 50px;
+    background: black;
 }
 body{
     text-decoration: none;
 }
 body{
-    background: rgba(5, 5, 133, 0.945);
+    background: black;
     align-items: center;
     text-align: center;
 }

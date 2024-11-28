@@ -199,7 +199,7 @@ const subJect = {
             answerOptions: {
                 answer1: 'Albert',
                 answer2: 'Neol',
-                answer3: 'Appl an onion',
+                answer3: 'Apple an onion',
                 answer4: 'Richard Nixon',
                 mainAnswer: 'Richard Nixon'
             }
@@ -292,6 +292,108 @@ const subJect = {
                 answer3: 10,
                 answer4: 1,
                 mainAnswer: 2
+            }
+        },
+    ],
+    mathsQuestions: [
+        {
+            question: 'What is the sum of 130+125+191?',
+            answerOptions: {
+                answer1: 335,
+                answer2: 456,
+                answer3: 446,
+                answer4: 426,
+                mainAnswer: 446
+            }
+        },
+        {
+            question: 'If we minus 712 from 1500, how much do we get?',
+            answerOptions: {
+                answer1: 788,
+                answer2: 778,
+                answer3: 768,
+                answer4: 758,
+                mainAnswer: 788
+            }
+        },
+        {
+            question: '50 times of 8 is equal to?',
+            answerOptions: {
+                answer1: 80,
+                answer2: 400,
+                answer3: 800,
+                answer4: 4000,
+                mainAnswer: 400
+            }
+        },
+        {
+            question: '110 divided by 10 is110 divided by 10 is?',
+            answerOptions: {
+                answer1: 11,
+                answer2: 10,
+                answer3: 5,
+                answer4: 'none of these',
+                mainAnswer: 11
+            }
+        },
+        {
+            question: ' 20+(90÷2) is equal to?',
+            answerOptions: {
+                answer1: 50,
+                answer2: 55,
+                answer3: 65,
+                answer4: 60,
+                mainAnswer: 65
+            }
+        },
+        {
+            question: 'The product of 82 and 5 is?',
+            answerOptions: {
+                answer1: 400,
+                answer2: 410,
+                answer3: 200,
+                answer4: 420,
+                mainAnswer: 410
+            }
+        },
+        {
+            question: 'Find the missing terms in multiple of 3: 3, 6, 9, __, 15?',
+            answerOptions: {
+                answer1: 10,
+                answer2: 11,
+                answer3: 12,
+                answer4: 13,
+                mainAnswer: 12
+            }
+        },
+        {
+            question: 'Solve 24÷8+2?',
+            answerOptions: {
+                answer1: 5,
+                answer2: 6,
+                answer3: 8,
+                answer4: 12,
+                mainAnswer: 5
+            }
+        },
+        {
+            question: 'Solve 300 – (150×2)?',
+            answerOptions: {
+                answer1: 150,
+                answer2: 100,
+                answer3: 50,
+                answer4: 0,
+                mainAnswer: 0
+            }
+        },
+        {
+            question: 'The product of 121 x 0 x 200 x 25 is?',
+            answerOptions: {
+                answer1: 1500,
+                answer2: 0,
+                answer3: 4000,
+                answer4: 1210,
+                mainAnswer: 0
             }
         },
     ],
