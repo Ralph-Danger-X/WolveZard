@@ -5,8 +5,9 @@
     margin-top: 200px;
     padding-block: 10px;
     border-radius: 20px;
-    box-shadow: 0 0 50px;
-    background: black;
+    background: rgb(2, 2, 71);
+    box-shadow: 0 0 50px darkblue;
+    border: 1px solid darkblue;
 }
 body{
     text-decoration: none;
@@ -29,6 +30,7 @@ body{
     border-bottom: 2px solid rgba(5, 5, 133, 0.945);
     background: none;
     outline: none;
+    color: white;
     margin-bottom: 15px;
     padding: 10px;
     align-items: center;

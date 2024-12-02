@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    color: white;
+}
+.contained{
+    position: relative;
+    width: 750px;
+    height: 450px;
+    border: 2px solid darkblue;
+    box-shadow: 0 0 40px darkblue;
+}
+.contained .loginPage{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.loginPage h2{
+    font-size: 32px;
+    text-align: center;
+}
+.loginPage .inputOne{
+    position: relative;
+    width: 100%;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+}
+.inputOne input{
+    width: 75vh;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid white;
+    padding-right: 23px;
+    color: white;
+}
+.loginPage.Login{
+    left: 0;
+    padding: 0 40px;
+}
+.loginPage label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: white;
+    transition: .5s;
+}
+.loginPage input:focus ~ label,
+.loginPage input:valid ~ label{
+    top: -5px;
+    color: darkblue;
+}
+.press{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 60;
+    border: 1px solid darkblue;
+}
+.press::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#252525,darkblue,#252525,
+    darkblue);
+    top: 0;
+    left: 0;
+    /* z-index: -1; */
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.press:hover:before{
+    top: 0;
+}
+.account{
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 20px;
+}
+.account a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+}
+.inputOne input{
+    margin-bottom: 20px;
+}

@@ -397,6 +397,9 @@ const subJect = {
             }
         },
     ],
+    Architecture: [
+        
+    ]
 };
 
 document.addEventListener('DOMContentLoaded', () => {
